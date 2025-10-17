@@ -1,0 +1,14 @@
+th,
+td,p,h2 {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px 10px;
+  text-align: center;
+  font-size: 20px;
+  
+}
+table{
+    margin: 70px 70px;
+}
+th{
+  background-color: #ecd4d4;
+}
