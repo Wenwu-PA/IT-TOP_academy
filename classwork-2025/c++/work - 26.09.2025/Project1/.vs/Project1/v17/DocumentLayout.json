@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\it-top\\c\u002B\u002B\\work - 26.09.2025\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{250927DF-D92E-4178-9487-49A9BD51C3AD}|Project1.vcxproj|D:\\it-top\\c\u002B\u002B\\work - 26.09.2025\\Project1\\Hellowrld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{250927DF-D92E-4178-9487-49A9BD51C3AD}|Project1.vcxproj|solutionrelative:Hellowrld.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hellowrld.cpp",
+              "DocumentMoniker": "D:\\it-top\\c\u002B\u002B\\work - 26.09.2025\\Project1\\Hellowrld.cpp",
+              "RelativeDocumentMoniker": "Hellowrld.cpp",
+              "ToolTip": "D:\\it-top\\c\u002B\u002B\\work - 26.09.2025\\Project1\\Hellowrld.cpp",
+              "RelativeToolTip": "Hellowrld.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-26T08:40:24.236Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

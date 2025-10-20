@@ -1,0 +1,27 @@
+print("equi") 
+a = int(input("input number one "))
+b = int(input("input number two: "))
+def equi(a,b):
+    return a == b
+print (f'num one = {a} \nnum two = {b} \nresult = {equi(a,b)}')
+
+print("conjuction")
+a = int(input("input number one "))
+b = int(input("input number two: "))
+def conjuction(a,b):
+    return a and b
+print (f'num one = {a} \nnum two = {b} \nresult = {bool(conjuction(a,b))}')
+
+print("disjunction")
+a = int(input("input number one "))
+b = int(input("input number two: "))
+def disjunction(a,b):
+    return a or b
+print (f'num one = {a} \nnum two = {b} \nresult = {bool(disjunction(a,b))}')
+
+print("implication")
+a = int(input("input number one "))
+b = int(input("input number two: "))
+def implication(a,b):
+    return (not a) or b
+print (f'num one = {a} \nnum two = {b} \nresult = {bool(implication(a,b))}')

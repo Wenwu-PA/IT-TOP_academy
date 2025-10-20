@@ -1,0 +1,4 @@
+﻿  work.cpp
+D:\it-top\c++\work- 02.10.2025\Project2\work.cpp(5,15): warning C4305: инициализация: усечение из "int" в "char"
+D:\it-top\c++\work- 02.10.2025\Project2\work.cpp(5,17): warning C4309: инициализация: усечение константного значения
+  Project2.vcxproj -> D:\it-top\c++\work- 02.10.2025\Project2\x64\Debug\Project2.exe

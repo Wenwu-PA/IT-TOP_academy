@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF40B5B-8514-40C5-9F45-B11929B5E6AC}|work.vcxproj|D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AF40B5B-8514-40C5-9F45-B11929B5E6AC}|work.vcxproj|solutionrelative:work1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AF40B5B-8514-40C5-9F45-B11929B5E6AC}|work.vcxproj|D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5AF40B5B-8514-40C5-9F45-B11929B5E6AC}|work.vcxproj|solutionrelative:work.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "work1.cpp",
+              "DocumentMoniker": "D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work1.cpp",
+              "RelativeDocumentMoniker": "work1.cpp",
+              "ToolTip": "D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work1.cpp",
+              "RelativeToolTip": "work1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-10T08:00:33.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "work.cpp",
+              "DocumentMoniker": "D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work.cpp",
+              "RelativeDocumentMoniker": "work.cpp",
+              "ToolTip": "D:\\it-top\\c\u002B\u002B\\work-10.10.2025\\work\\work.cpp",
+              "RelativeToolTip": "work.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-10T07:12:26.872Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

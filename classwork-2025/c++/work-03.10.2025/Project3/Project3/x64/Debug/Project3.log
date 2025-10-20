@@ -1,0 +1,4 @@
+﻿  test_script.cpp
+D:\it-top\c++\work-03.10.2025\Project3\test_script.cpp(8,9): error C2397: Преобразование из "double" в "int" требует сужающего преобразования.
+  work.cpp
+  Создание кода...
