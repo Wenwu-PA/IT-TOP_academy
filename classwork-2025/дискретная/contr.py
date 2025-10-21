@@ -7,14 +7,18 @@ def IsMult5(num):
     return (num % 5 == 0)
 
 def IsPrime(A):
-    if A >= 1:
+    if A <= 1:
         return False
-    else:
-        for i in range(2,A):
-            if A % i == 0:
-                return False
-            else:
-                return True
+    if A <= 3:
+        return True
+    if A % 2 == 0 or A % 3 == 0:
+        return False
+    i = 5
+    while i * i <= A:
+        if A % i == 0 or A % (i + 2) == 0:
+            return False
+        i += 6
+    return True
 def CreateEven(A):
     B = set()
     for i in A:
@@ -37,19 +41,23 @@ def CreatePrime(A):
 B = CreateEven(A)
 C = Create5(A)
 D = CreatePrime(A)
+def notM(M1,M2):
+    return M1.difference(M2)
 
 def Implec(A,B):
     return B.difference(A).union(B)
 def Equ(A,B):
     return len(A) == len(B)
 
-def notDBC(A,B):
+def And(A,B):
     return A.difference(B)
 
-def notBC(A,B):
+def OR(A,B):
     return A.union(B)
 
-notB = notDBC(A,B)
-notC = notDBC(A,C)
-notD = notDBC(A,D)
+notB = notM(A,B)
+notC = notM(A,C)
+notD = notM(A,D)
 
+print(f"A = {A}\nB = {B}\nC= {C} \nD = {D}\nnotC = {notC}\nnotB = {notB}\nnotD = {notD}")
+print(f"funcAnd: {And(A,B)}\nfuncOr: {OR(A,B)}\nfuncImp: {Implec(A,B)}\nfuncEq: {Equ(A,B)}")
