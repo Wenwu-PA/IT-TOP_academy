@@ -47,7 +47,7 @@ def notM(M1,M2):
 def Implec(A,B):
     return B.difference(A).union(B)
 def Equ(A,B):
-    return len(A) == len(B)
+    return A.intersection(B)
 
 def And(A,B):
     return A.difference(B)
