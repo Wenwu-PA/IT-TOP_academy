@@ -11,7 +11,10 @@ int main()
     int res{x};
 
     for(int i{1}; i < y; i++)
-    {
+    {   if (y == 0){
+            x = 1;
+            break;
+    }
         res *= x;
     }
 

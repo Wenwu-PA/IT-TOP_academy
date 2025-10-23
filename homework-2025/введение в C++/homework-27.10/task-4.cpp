@@ -2,7 +2,7 @@
 
 int main()
 {
-    int res{1};
+    long long int res{1};
     int number{};
 
     std::cout << "input a number: ";
