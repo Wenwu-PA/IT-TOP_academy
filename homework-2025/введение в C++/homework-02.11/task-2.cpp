@@ -1,9 +1,15 @@
 #include <iostream>
 
 int main() {
-    double x = 2.0;
-    double numerator = x*x + 4;
-    double denominator = x*x - 4;
-    std::cout << "2) " << numerator / denominator << std::endl;
+    int count = 0;
+    for (int i = 100; i <= 999; i++) {
+        int digit1 = i / 100;
+        int digit2 = (i / 10) % 10;
+        int digit3 = i % 10;
+        if (digit1 != digit2 && digit1 != digit3 && digit2 != digit3) {
+            count++;
+        }
+    }
+    std::cout << "2) " << count << std::endl;
     return 0;
 }
