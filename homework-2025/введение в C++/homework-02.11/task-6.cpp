@@ -1,12 +1,17 @@
 #include <iostream>
-#include <cmath>
 
 int main() {
-    double x;
-    std::cout << "Enter x: ";
-    std::cin >> x;
+    int number;
+    std::cout << "Введите число: ";
+    std::cin >> number;
     
-    double result = sqrt(x + sqrt(x)) - sqrt(x);
-    std::cout << "6) " << result << std::endl;
+    std::cout << "Делители: ";
+    for (int i = 1; i <= number; i++) {
+        if (number % i == 0) {
+            std::cout << i << " ";
+        }
+    }
+    std::cout << std::endl;
+    
     return 0;
 }

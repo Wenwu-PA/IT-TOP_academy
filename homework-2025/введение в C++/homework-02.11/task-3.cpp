@@ -1,12 +1,22 @@
 #include <iostream>
 
 int main() {
-    double x;
-    std::cout << "Enter x: ";
-    std::cin >> x;
+    int number;
+    std::cout << "Введите число: ";
+    std::cin >> number;
     
-    double numerator = x*x - 4*x + 3;
-    double denominator = x*x - x - 6;
-    std::cout << "3) " << numerator / denominator << std::endl;
+    int result = 0;
+    int multiplier = 1;
+    
+    while (number != 0) {
+        int digit = number % 10;
+        if (digit != 3 && digit != 6) {
+            result = result + digit * multiplier;
+            multiplier *= 10;
+        }
+        number = number / 10;
+    }
+    
+    std::cout << "3) " << result << std::endl;
     return 0;
 }

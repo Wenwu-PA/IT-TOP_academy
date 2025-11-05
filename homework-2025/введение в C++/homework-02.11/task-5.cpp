@@ -1,13 +1,23 @@
 #include <iostream>
-#include <cmath>
 
 int main() {
-    double x;
-    std::cout << "Enter x: ";
-    std::cin >> x;
+    int A;
+    std::cout << "Введите число A: ";
+    std::cin >> A;
     
-    double numerator = 3*x*x + sqrt(4*x);
-    double denominator = x * (sqrt(2 + 4*x*x) + 2);
-    std::cout << "5) " << numerator / denominator << std::endl;
+    int sum = 0;
+    int temp = A;
+    while (temp != 0) {
+        sum += temp % 10;
+        temp /= 10;
+    }
+    
+    int cubeSum = sum * sum * sum;
+    if (cubeSum == A * A) {
+        std::cout << "5) Верно" << std::endl;
+    } else {
+        std::cout << "5) Неверно" << std::endl;
+    }
+    
     return 0;
 }

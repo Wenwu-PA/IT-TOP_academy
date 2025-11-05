@@ -1,13 +1,17 @@
 #include <iostream>
-#include <cmath>
 
 int main() {
-    double x;
-    std::cout << "Enter x: ";
-    std::cin >> x;
+    int A;
+    std::cout << "Введите число A: ";
+    std::cin >> A;
     
-    double numerator = x*x - sqrt(x);
-    double denominator = sqrt(x) - 1;
-    std::cout << "4) " << numerator / denominator << std::endl;
+    std::cout << "Числа B: ";
+    for (int B = 1; B <= A; B++) {
+        if (A % (B * B) == 0 && A % (B * B * B) != 0) {
+            std::cout << B << " ";
+        }
+    }
+    std::cout << std::endl;
+    
     return 0;
 }
