@@ -24,12 +24,15 @@ HAVING MAX(quantity) > ALL (
 ORDER BY id;
 
 -- 3)
-SELECT DISTINCT Candidates.id
+SELECT id
 FROM Candidates
-JOIN Rounds ON Candidates.interview_id = Rounds.interview_id
-WHERE Candidates.years_of_exp >= 2
-GROUP BY Candidates.id, Candidates.interview_id
-HAVING SUM(Rounds.score) > 15;
+WHERE years_of_exp >= 2
+AND interview_id IN (
+    SELECT interview_id 
+    FROM Rounds 
+    GROUP BY interview_id 
+    HAVING SUM(score) > 15
+);
 
 -- 4)
 SELECT 
@@ -60,12 +63,10 @@ WHERE address_id IN (
 
 -- 6)
 SELECT title
-FROM (
-    SELECT 
-        title,
-        running_time,
-        LAG(running_time) OVER (ORDER BY show_date) as prev_day_running_time
-    FROM Films
-) as film_stats
-WHERE running_time > prev_day_running_time
+FROM Films
+WHERE running_time > (
+    SELECT running_time
+    FROM Films 
+    WHERE show_date = DATE_SUB(Films.show_date, INTERVAL 1 DAY)
+)
 ORDER BY title;
