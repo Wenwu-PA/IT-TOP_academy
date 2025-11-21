@@ -37,6 +37,7 @@ void bubble_sort(int arr[], int len, bool inc)
         bool was_swap{false};
         for(int j{i}; j < len; j++)
         {
+            printArr(arr,len);
             if ((inc) ? (arr[j]) > arr[j+1] : (arr[j]) < arr[j+1])
             {
                 int mn{};
