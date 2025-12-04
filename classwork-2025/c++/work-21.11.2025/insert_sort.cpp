@@ -28,7 +28,7 @@ void printArr(int arr[],int len)
     for (int i{}; i < len; i++)
     {
         std::cout << arr[i] << " ";
-    }
+    } 
     std::cout << "\n";
 }
 
