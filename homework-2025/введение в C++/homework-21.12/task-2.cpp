@@ -8,8 +8,7 @@ int main() {
     std::cout << "Введите размер массива B: ";
     std::cin >> N;
     
-    int* A = new int[M];
-    int* B = new int[N];
+    int A[M], B[N];
     
     std::cout << "\nВведите элементы массива A:\n";
     for (int i = 0; i < M; i++) {
@@ -23,7 +22,7 @@ int main() {
         std::cin >> B[i];
     }
     
-    int* C = new int[M];
+    int C[M];
     int k = 0;
     
     for (int i = 0; i < M; i++) {
@@ -72,11 +71,7 @@ int main() {
         std::cout << "\nВсего элементов: " << k;
     }
     
-    delete[] A;
-    delete[] B;
-    delete[] C;
-    
-    std::cout << '\n';
+    std::cout << std::endl;
     
     return 0;
 }
