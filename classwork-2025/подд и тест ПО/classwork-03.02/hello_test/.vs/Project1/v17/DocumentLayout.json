@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78C2ADA7-7A7C-4678-A097-AB3F0099CC8B}|..\\test-hello_world\\test-hello_world.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\test-hello_world\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EB33FC9-9766-464C-BDF9-64223D0D417E}|Project1.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\Project1\\hello-world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4EB33FC9-9766-464C-BDF9-64223D0D417E}|Project1.vcxproj|solutionrelative:hello-world.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\test-hello_world\\test.cpp",
+              "RelativeDocumentMoniker": "..\\test-hello_world\\test.cpp",
+              "ToolTip": "D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\test-hello_world\\test.cpp",
+              "RelativeToolTip": "..\\test-hello_world\\test.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-03T10:50:20.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hello-world.cpp",
+              "DocumentMoniker": "D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\Project1\\hello-world.cpp",
+              "RelativeDocumentMoniker": "hello-world.cpp",
+              "ToolTip": "D:\\git\\IT-TOP_academy\\classwork-2025\\\u043F\u043E\u0434\u0434 \u0438 \u0442\u0435\u0441\u0442 \u041F\u041E\\classwork-03.02\\Project1\\hello-world.cpp",
+              "RelativeToolTip": "hello-world.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-03T10:46:09.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

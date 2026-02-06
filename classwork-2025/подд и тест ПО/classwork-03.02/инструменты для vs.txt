@@ -1,0 +1,2 @@
+nunit - тестовая прога дял c#
+Live unit testing is available in Enterprise edition only and is only supported for .NET code
