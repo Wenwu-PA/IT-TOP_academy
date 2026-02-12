@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\google_test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF04C2D-9B6F-4919-A93C-2B59020B25F3}|google_test.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\google_test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5BF04C2D-9B6F-4919-A93C-2B59020B25F3}|google_test.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.cpp",
+              "DocumentMoniker": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\google_test\\test.cpp",
+              "RelativeDocumentMoniker": "test.cpp",
+              "ToolTip": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\google_test\\test.cpp*",
+              "RelativeToolTip": "test.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-10T08:21:46.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
