@@ -1,3 +1,0 @@
-apple 100.000кг
-pc 100.000item
-tomate 100.000kg

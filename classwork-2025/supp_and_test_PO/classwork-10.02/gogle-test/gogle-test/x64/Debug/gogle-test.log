@@ -1,0 +1,31 @@
+﻿  test.cpp
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(9,1): error C2011: TestCaseName_TestName_Test: переопределение типа "class"
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(4,1):
+       см. объявление "TestCaseName_TestName_Test"
+  
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(9,1): error C2027: использование неопределенного типа "TestCaseName_TestName_Test"
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(4,1):
+       см. объявление "TestCaseName_TestName_Test"
+  
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(13,1): error C2027: использование неопределенного типа "TestCaseName_TestName_Test"
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(13,1):
+       см. объявление "TestCaseName_TestName_Test"
+  
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(13,1): error C2374: test_info_: переопределение; множественная инициализация
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(9,1):
+       см. объявление "test_info_"
+  
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(13,1): error C2086: testing::TestInfo *const test_info_: переопределение
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(9,1):
+       см. объявление "test_info_"
+  
+D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(13,1): error C2084: функция "void TestBody(void)" уже имеет текст реализации
+  (компиляция исходного файла "/test.cpp")
+      D:\git\IT-TOP_academy\classwork-2025\supp_and_test_PO\classwork-10.02\gogle-test\test.cpp(9,1):
+      см. предыдущее определение "TestBody"
+  
