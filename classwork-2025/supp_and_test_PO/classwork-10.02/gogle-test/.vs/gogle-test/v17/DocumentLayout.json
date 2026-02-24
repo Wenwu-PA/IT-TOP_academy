@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\gogle-test\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81FE13BF-E986-4A03-9A02-A28613F3A1D5}|gogle-test.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\gogle-test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{81FE13BF-E986-4A03-9A02-A28613F3A1D5}|gogle-test.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FFC67F86-E7C4-4900-8150-0094A9CDAF80}|..\\main\\main.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FFC67F86-E7C4-4900-8150-0094A9CDAF80}|..\\main\\main.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\main\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{81FE13BF-E986-4A03-9A02-A28613F3A1D5}|gogle-test.vcxproj|D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\gogle-test\\test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{81FE13BF-E986-4A03-9A02-A28613F3A1D5}|gogle-test.vcxproj|solutionrelative:test.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,11 +17,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\main\\main.cpp",
               "RelativeDocumentMoniker": "..\\main\\main.cpp",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "test.cpp",
               "DocumentMoniker": "D:\\git\\IT-TOP_academy\\classwork-2025\\supp_and_test_PO\\classwork-10.02\\gogle-test\\test.cpp",
               "RelativeDocumentMoniker": "test.cpp",
@@ -42,8 +42,7 @@
               "RelativeToolTip": "test.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-02-10T09:32:57.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-10T09:32:57.936Z"
             }
           ]
         }
