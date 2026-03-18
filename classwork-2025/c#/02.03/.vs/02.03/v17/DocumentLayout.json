@@ -1,16 +1,21 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\git\\IT-TOP_academy\\classwork-2025\\c#\\02.03\\",
+<<<<<<< HEAD
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\git\\IT-TOP_academy\\classwork-2025\\c#\\02.03\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> 1dc0a808a80ef6166f2ea5ef19760b787b0bd7ac
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
+<<<<<<< HEAD
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -32,6 +37,9 @@
           ]
         }
       ]
+=======
+      "DocumentGroups": []
+>>>>>>> 1dc0a808a80ef6166f2ea5ef19760b787b0bd7ac
     }
   ]
 }

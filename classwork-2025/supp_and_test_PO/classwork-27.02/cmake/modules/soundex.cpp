@@ -14,9 +14,16 @@ std::string Soundex::head(const std::string& word) const{
     return word.substr(0,1);
 }
 std::string Soundex::encodedDigits(const std::string& word) const{
+<<<<<<< HEAD
     if(word.length()>1) return encodedDigit(word[1]);
     return "";
 }
 std::string Soundex::encodedDigit(char letter) const{
+=======
+    if(word.length()>1) return encodedDigit();
+    return "";
+}
+std::string Soundex::encodedDigit() const{
+>>>>>>> 1dc0a808a80ef6166f2ea5ef19760b787b0bd7ac
     return "1";
 }
