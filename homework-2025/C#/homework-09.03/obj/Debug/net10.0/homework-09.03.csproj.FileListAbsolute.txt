@@ -1,0 +1,14 @@
+C:\Users\Wenwu\Desktop\homework-09.03\bin\Debug\net10.0\homework-09.03.exe
+C:\Users\Wenwu\Desktop\homework-09.03\bin\Debug\net10.0\homework-09.03.deps.json
+C:\Users\Wenwu\Desktop\homework-09.03\bin\Debug\net10.0\homework-09.03.runtimeconfig.json
+C:\Users\Wenwu\Desktop\homework-09.03\bin\Debug\net10.0\homework-09.03.dll
+C:\Users\Wenwu\Desktop\homework-09.03\bin\Debug\net10.0\homework-09.03.pdb
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.AssemblyInfoInputs.cache
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.AssemblyInfo.cs
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.csproj.CoreCompileInputs.cache
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.dll
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\refint\homework-09.03.dll
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.pdb
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\homework-09.03.genruntimeconfig.cache
+C:\Users\Wenwu\Desktop\homework-09.03\obj\Debug\net10.0\ref\homework-09.03.dll

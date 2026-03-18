@@ -1,0 +1,21 @@
+# ninja log v6
+2	82	7944943229202211	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	f6ef2feb9ec07dbb
+2	82	7944943229202211	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	f6ef2feb9ec07dbb
+83	1492	7944943243230465	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	5edc6c49eb32879d
+83	1492	7944943243230465	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	5edc6c49eb32879d
+1492	1573	7944943244076634	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	e30cc83d8c8bea14
+1492	1573	7944943244076634	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	e30cc83d8c8bea14
+1573	1648	7944943244766599	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	65aeac0f7247b587
+1573	1648	7944943244766599	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	65aeac0f7247b587
+1648	1719	7944943245547665	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	1fe4ee40471012d1
+1648	1719	7944943245547665	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	1fe4ee40471012d1
+1719	1809	7944943246341098	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	64c70303e025a77
+1719	1809	7944943246341098	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	64c70303e025a77
+1809	1897	7944943247239841	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	30c4796d454f18b8
+1809	1897	7944943247239841	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	30c4796d454f18b8
+1897	1969	7944943248086333	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	d484d611bcd8c355
+1897	1969	7944943248086333	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	d484d611bcd8c355
+1969	2072	7944943249089349	CMakeFiles/googletest-populate-complete	58bfdd015175e6cc
+1969	2072	7944943249089349	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	58bfdd015175e6cc
+1969	2072	7944943249089349	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	58bfdd015175e6cc
+1969	2072	7944943249089349	D:/git/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-27.02/cmake/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	58bfdd015175e6cc

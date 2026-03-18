@@ -1,0 +1,15 @@
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.AssemblyInfoInputs.cache
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.AssemblyInfo.cs
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.csproj.CoreCompileInputs.cache
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.sourcelink.json
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\bin\Debug\net8.0\CW-03.03.exe
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\bin\Debug\net8.0\CW-03.03.deps.json
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\bin\Debug\net8.0\CW-03.03.runtimeconfig.json
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\bin\Debug\net8.0\CW-03.03.dll
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\bin\Debug\net8.0\CW-03.03.pdb
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.dll
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\refint\CW-03.03.dll
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.pdb
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\CW-03.03.genruntimeconfig.cache
+D:\git\IT-TOP_academy\classwork-2025\c#\03.03\CW-03.03\CW-03.03\obj\Debug\net8.0\ref\CW-03.03.dll
