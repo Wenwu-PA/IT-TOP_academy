@@ -1,0 +1,26 @@
+# ninja log v6
+4052	6352	7954370293508468	tests/CMakeFiles/tests.dir/gtest.cpp.obj	98016dd680480c5
+733	1060	7954370809364217	Soundex.exe	7feaf4f47fd258cb
+5528	5676	7954370307964320	lib/gtest_main.lib	c52fd5d94471b863
+1582	4049	7954370268504945	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	f0186af75813b2a1
+3858	4999	7954370291293121	modules/lib.lib	9acc192c831d00e8
+139	1581	7954370254107827	modules/CMakeFiles/lib.dir/soundex.cpp.obj	a02dd85458e26c89
+130	2652	7954370253869280	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	9c4a56ef6fa55704
+41	3830	7954370253050028	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	dcbe9416d5ed6f05
+5114	5645	7954370303841647	lib/gmock.lib	30d9d4d9cd8e4440
+2660	4497	7954370279728111	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	a0a73a5366706dae
+32	5026	7954370252962161	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	5fc8566c08e14e27
+1320	5098	7954370265848879	_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	38a7df7eb8daf4fa
+6353	7955	7954370316238851	tests/tests.exe	9020141dad8f69ed
+5030	5528	7954370303050835	lib/gtest.lib	e6a83be00c66471b
+38	5113	7954370253050028	_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	c1393f76541ad93b
+27	732	7954370802295306	CMakeFiles/Soundex.dir/main.cpp.obj	7b0f3486b70ad245
+5098	5645	7954370303631719	lib/gmock_main.lib	7f0c5d43a779c62a
+46	716	7954370965632005	CMakeFiles/Soundex.dir/main.cpp.obj	7b0f3486b70ad245
+717	969	7954370972290705	Soundex.exe	7feaf4f47fd258cb
+24	685	7954372043684834	CMakeFiles/Soundex.dir/main.cpp.obj	7b0f3486b70ad245
+686	1087	7954372050244283	Soundex.exe	7feaf4f47fd258cb
+23	1431	7954381045972615	CMakeFiles/Soundex.dir/main.cpp.obj	7b0f3486b70ad245
+1434	1800	7954381060119882	Soundex.exe	7feaf4f47fd258cb
+24	695	7954381667154333	CMakeFiles/Soundex.dir/main.cpp.obj	7b0f3486b70ad245
+696	929	7954381673823048	Soundex.exe	7feaf4f47fd258cb
