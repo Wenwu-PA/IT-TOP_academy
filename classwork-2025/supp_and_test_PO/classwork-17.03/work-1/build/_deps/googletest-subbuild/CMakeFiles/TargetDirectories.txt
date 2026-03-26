@@ -1,0 +1,3 @@
+D:/git/top_college/classwork-2025/supp_and_test_PO/classwork-17.03/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+D:/git/top_college/classwork-2025/supp_and_test_PO/classwork-17.03/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+D:/git/top_college/classwork-2025/supp_and_test_PO/classwork-17.03/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

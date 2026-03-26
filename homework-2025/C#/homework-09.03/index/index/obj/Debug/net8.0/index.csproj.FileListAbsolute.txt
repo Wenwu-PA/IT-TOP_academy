@@ -1,0 +1,14 @@
+C:\Users\TOP\Desktop\index\index\bin\Debug\net8.0\index.exe
+C:\Users\TOP\Desktop\index\index\bin\Debug\net8.0\index.deps.json
+C:\Users\TOP\Desktop\index\index\bin\Debug\net8.0\index.runtimeconfig.json
+C:\Users\TOP\Desktop\index\index\bin\Debug\net8.0\index.dll
+C:\Users\TOP\Desktop\index\index\bin\Debug\net8.0\index.pdb
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.AssemblyInfo.cs
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.dll
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\refint\index.dll
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.pdb
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\index.genruntimeconfig.cache
+C:\Users\TOP\Desktop\index\index\obj\Debug\net8.0\ref\index.dll
