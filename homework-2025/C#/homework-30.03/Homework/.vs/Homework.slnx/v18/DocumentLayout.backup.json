@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wenwu\\Desktop\\Homework\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\collegebbranchcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:collegebbranchcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\collegeabranchcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:collegeabranchcollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\collegebbasecollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:collegebbasecollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\collegeabasecollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:collegeabasecollege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\collegetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:collegetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|c:\\users\\wenwu\\desktop\\homework\\commonenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09CF615C-DC48-41EF-844B-32E0BD791B34}|Homework.csproj|solutionrelative:commonenums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollegeBBranchCollege.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeBBranchCollege.cs",
+              "RelativeDocumentMoniker": "CollegeBBranchCollege.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeBBranchCollege.cs",
+              "RelativeToolTip": "CollegeBBranchCollege.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:29:51.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CollegeBBaseCollege.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeBBaseCollege.cs",
+              "RelativeDocumentMoniker": "CollegeBBaseCollege.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeBBaseCollege.cs",
+              "RelativeToolTip": "CollegeBBaseCollege.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:29:18.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CollegeTest.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeTest.cs",
+              "RelativeDocumentMoniker": "CollegeTest.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeTest.cs",
+              "RelativeToolTip": "CollegeTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:27:55.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CollegeABaseCollege.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeABaseCollege.cs",
+              "RelativeDocumentMoniker": "CollegeABaseCollege.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeABaseCollege.cs",
+              "RelativeToolTip": "CollegeABaseCollege.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:27:21.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommonEnums.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CommonEnums.cs",
+              "RelativeDocumentMoniker": "CommonEnums.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CommonEnums.cs",
+              "RelativeToolTip": "CommonEnums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:26:29.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollegeABranchCollege.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeABranchCollege.cs",
+              "RelativeDocumentMoniker": "CollegeABranchCollege.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\CollegeABranchCollege.cs",
+              "RelativeToolTip": "CollegeABranchCollege.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:25:49.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\Homework\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\Homework\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:25:05.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
