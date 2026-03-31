@@ -1,0 +1,34 @@
+\doxysection{soundex.\+h}
+\hypertarget{soundex_8h_source}{}\label{soundex_8h_source}\index{soundex/soundex.h@{soundex/soundex.h}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <unordered\_map>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <cctype>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{size\_t}\ maxCodeLength\{4\};}
+\DoxyCodeLine{00008\ \textcolor{keyword}{const}\ std::string\ NotADigit\{\textcolor{stringliteral}{"{}*"{}}\};}
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_soundex}{Soundex}}}
+\DoxyCodeLine{00011\ \{}
+\DoxyCodeLine{00012\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ std::string\ encode(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00014\ \ \ \ \ std::string\ \mbox{\hyperlink{class_soundex_a3ab88e4be272b789da61e944614f7907}{encodedDigit}}(\textcolor{keywordtype}{char}\ letter)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{char}\ lower(\textcolor{keywordtype}{char}\ c)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00018\ \ \ \ \ std::string\ upperFront(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00019\ \ \ \ \ std::string\ head(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00020\ \ \ \ \ std::string\ tail(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00021\ \ \ \ \ std::string\ zeroPad(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00022\ \ \ \ \ std::string\ encodedDigits(\textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{void}\ encodeHead(std::string\&\ encoding,\ \textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{void}\ encodeTail(std::string\&\ encoding,\ \textcolor{keyword}{const}\ std::string\&\ word)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ encodeLetter(std::string\&\ encoding,\ \textcolor{keywordtype}{char}\ letter,\ \textcolor{keywordtype}{char}\ lastLetter)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{bool}\ isVowel(\textcolor{keywordtype}{char}\ letter)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00027\ \ \ \ \ std::string\ lastDigit(\textcolor{keyword}{const}\ std::string\&\ encoding)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{bool}\ isComplete(\textcolor{keyword}{const}\ std::string\&\ encoding)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00029\ \};}
+
+\end{DoxyCode}
