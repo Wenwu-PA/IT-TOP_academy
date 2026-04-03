@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/cmake_install.cmake",
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/_deps/googletest-build/cmake_install.cmake",
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/_deps/googletest-build/googletest/cmake_install.cmake",
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/modules/cmake_install.cmake",
+		"/home/wenwu/Documents/IT-TOP_academy/classwork-2025/supp_and_test_PO/classwork-03.04/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

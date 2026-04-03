@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/Interpreter.dir/link.d CMakeFiles/Interpreter.dir/main.cpp.o -o Interpreter  modules/liblib.a
