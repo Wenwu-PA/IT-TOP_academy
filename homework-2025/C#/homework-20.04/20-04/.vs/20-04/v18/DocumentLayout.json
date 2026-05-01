@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\homework-2025\\C#\\homework-14.04\\20-04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C48039FC-8EAF-449B-A27B-238CF286CBFC}|20-04.csproj|c:\\users\\wenwu\\desktop\\it-top_academy\\homework-2025\\c#\\homework-14.04\\20-04\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C48039FC-8EAF-449B-A27B-238CF286CBFC}|20-04.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\homework-2025\\C#\\homework-14.04\\20-04\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\homework-2025\\C#\\homework-14.04\\20-04\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T16:54:09.893Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

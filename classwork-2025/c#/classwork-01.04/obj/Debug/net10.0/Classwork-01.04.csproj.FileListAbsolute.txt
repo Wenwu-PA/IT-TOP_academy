@@ -1,0 +1,14 @@
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.AssemblyInfoInputs.cache
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.AssemblyInfo.cs
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.csproj.CoreCompileInputs.cache
+C:\Users\Wenwu\Desktop\Classwork-01.04\bin\Debug\net10.0\Classwork-01.04.exe
+C:\Users\Wenwu\Desktop\Classwork-01.04\bin\Debug\net10.0\Classwork-01.04.deps.json
+C:\Users\Wenwu\Desktop\Classwork-01.04\bin\Debug\net10.0\Classwork-01.04.runtimeconfig.json
+C:\Users\Wenwu\Desktop\Classwork-01.04\bin\Debug\net10.0\Classwork-01.04.dll
+C:\Users\Wenwu\Desktop\Classwork-01.04\bin\Debug\net10.0\Classwork-01.04.pdb
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.dll
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\refint\Classwork-01.04.dll
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.pdb
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\Classwork-01.04.genruntimeconfig.cache
+C:\Users\Wenwu\Desktop\Classwork-01.04\obj\Debug\net10.0\ref\Classwork-01.04.dll

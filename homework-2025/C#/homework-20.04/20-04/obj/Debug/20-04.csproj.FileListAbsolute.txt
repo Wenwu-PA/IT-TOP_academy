@@ -1,0 +1,15 @@
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\bin\Debug\20-04.exe.config
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\bin\Debug\20-04.exe
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\bin\Debug\20-04.pdb
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\obj\Debug\20-04.csproj.AssemblyReference.cache
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\obj\Debug\20-04.csproj.CoreCompileInputs.cache
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\obj\Debug\20-04.exe
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\obj\Debug\20-04.pdb
+C:\Users\Docker\Documents\CodeCave\C#\Homework\20-04\obj\Debug\20-04.exe.config
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\obj\Debug\20-04.csproj.AssemblyReference.cache
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\obj\Debug\20-04.csproj.CoreCompileInputs.cache
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\obj\Debug\20-04.exe
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\obj\Debug\20-04.pdb
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\bin\Debug\20-04.exe.config
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\bin\Debug\20-04.exe
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2025\C#\homework-14.04\20-04\bin\Debug\20-04.pdb

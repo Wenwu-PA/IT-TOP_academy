@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Classwork-01.04/1.0.0": {
+        "runtime": {
+          "Classwork-01.04.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Classwork-01.04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
