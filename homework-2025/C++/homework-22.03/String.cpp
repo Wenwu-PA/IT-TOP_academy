@@ -48,3 +48,4 @@ void String::output() const {
 int String::getObjectCount() {
     return objectCount;
 }
+
