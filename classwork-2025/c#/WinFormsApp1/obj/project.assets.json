@@ -1,31 +1,26 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\TOP\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Wenwu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TOP\\Desktop\\WinFormsApp1\\WinFormsApp1.csproj",
+      "projectUniqueName": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\WinFormsApp1\\WinFormsApp1.csproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\Users\\TOP\\Desktop\\WinFormsApp1\\WinFormsApp1.csproj",
-      "packagesPath": "C:\\Users\\TOP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TOP\\Desktop\\WinFormsApp1\\obj\\",
+      "projectPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\WinFormsApp1\\WinFormsApp1.csproj",
+      "packagesPath": "C:\\Users\\Wenwu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\TOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Wenwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -36,7 +31,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0-windows7.0": {
+        "net8.0-windows": {
+          "framework": "net8.0-windows7.0",
           "targetAlias": "net8.0-windows",
           "projectReferences": {}
         }
@@ -51,10 +47,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net8.0-windows7.0": {
+      "net8.0-windows": {
+        "framework": "net8.0-windows7.0",
         "targetAlias": "net8.0-windows",
         "imports": [
           "net461",
@@ -67,6 +64,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.27, 8.0.27]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -75,7 +90,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wenwu\\Desktop\\classwork-15.04\\classwork-15.04.csproj": {}
+    "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wenwu\\Desktop\\classwork-15.04\\classwork-15.04.csproj": {
+    "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wenwu\\Desktop\\classwork-15.04\\classwork-15.04.csproj",
+        "projectUniqueName": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj",
         "projectName": "classwork-15.04",
-        "projectPath": "C:\\Users\\Wenwu\\Desktop\\classwork-15.04\\classwork-15.04.csproj",
+        "projectPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj",
         "packagesPath": "C:\\Users\\Wenwu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wenwu\\Desktop\\classwork-15.04\\obj\\",
+        "outputPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wenwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -26,6 +26,7 @@
         },
         "frameworks": {
           "net10.0": {
+            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -40,10 +41,11 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net10.0": {
+          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -61,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
