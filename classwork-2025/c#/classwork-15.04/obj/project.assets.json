@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj",
-      "projectName": "classwork-15.04",
-      "projectPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\classwork-15.04.csproj",
+      "projectUniqueName": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\Wenwu\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\classwork-15.04\\obj\\",
       "projectStyle": "PackageReference",
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

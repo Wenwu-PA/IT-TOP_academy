@@ -1,0 +1,97 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+
+abstract class Weapon {
+  #damage: int
+  #weight: float
+  +Weapon(d: int, w: float)
+  +use(): int {abstract}
+  +getDamage(): int
+}
+
+class Sword {
+  +Sword()
+  +use(): int
+  +sharpen(): void
+}
+
+class Axe {
+  +Axe()
+  +use(): int
+}
+
+class Bow {
+  #arrows: int
+  +Bow()
+  +use(): int
+  +reload(): void
+}
+
+interface Armor {
+  +defense: int
+  +equip(): void
+  +unequip(): void
+}
+
+class LightArmor {
+  +LightArmor()
+  +equip(): void
+  +unequip(): void
+}
+
+class HeavyArmor {
+  +HeavyArmor()
+  +equip(): void
+  +unequip(): void
+}
+
+class Character {
+  -name: string
+  -health: int
+  -mainHand: Weapon
+  -offHand: Weapon
+  -equippedArmor: Armor
+  +Character(n: string, hp: int)
+  +attack(target: Character): int
+  +equipWeapon(weapon: Weapon, hand: string): bool
+  +equipArmor(armor: Armor): void
+  +takeDamage(amount: int): void
+}
+
+' Наследование оружия
+Weapon <|-- Sword
+Weapon <|-- Axe
+Weapon <|-- Bow
+
+' Наследование брони
+Armor <|.. LightArmor
+Armor <|.. HeavyArmor
+
+' Ассоциации
+Character o-- "0..2" Weapon : владеет >
+Character o-- "0..1" Armor : экипирован >
+
+' Примечания
+note right of Sword
+  Базовый урон: 35
+  Скорость атаки: высокая
+end note
+
+note right of Axe
+  Базовый урон: 50
+  Скорость атаки: низкая
+end note
+
+note right of Bow
+  Дальнобойное оружие
+  Требует стрелы
+end note
+
+note bottom of Character
+  Персонаж может держать
+  до 2 единиц оружия
+  и 1 комплект брони
+end note
+
+@enduml

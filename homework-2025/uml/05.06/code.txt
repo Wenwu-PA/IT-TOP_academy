@@ -1,0 +1,168 @@
+@startuml
+skinparam classAttributeIconSize 0
+skinparam packageStyle rectangle
+
+' Abstract Products
+abstract class Hdd {
+    +getHddModel(): string
+}
+
+abstract class Memory {
+    +getMemoryModel(): string
+}
+
+abstract class MainBoard {
+    +getMainBoardModel(): string
+}
+
+abstract class Box {
+    +getBoxModel(): string
+}
+
+abstract class Processor {
+    +getProcessorModel(): string
+}
+
+' Concrete Products - HDD
+class SamsungHDD {
+    +getHddModel(): string
+}
+
+class LGHDD {
+    +getHddModel(): string
+}
+
+' Concrete Products - Memory
+class Ddr2Memory {
+    +getMemoryModel(): string
+}
+
+class DdrMemory {
+    +getMemoryModel(): string
+}
+
+' Concrete Products - MainBoard
+class MSIMainBoard {
+    +getMainBoardModel(): string
+}
+
+class AsusMainBoard {
+    +getMainBoardModel(): string
+}
+
+' Concrete Products - Box
+class SilverBox {
+    +getBoxModel(): string
+}
+
+class BlackBox {
+    +getBoxModel(): string
+}
+
+' Concrete Products - Processor
+class IntelProcessor {
+    +getProcessorModel(): string
+}
+
+class AmdProcessor {
+    +getProcessorModel(): string
+}
+
+' Abstract Factory
+abstract class IPCFactory {
+    +CreateBox(): Box*
+    +CreateProcessor(): Processor*
+    +CreateMainBoard(): MainBoard*
+    +CreateHdd(): Hdd*
+    +CreateMemory(): Memory*
+}
+
+' Concrete Factories
+class HomePCFactory {
+    +CreateBox(): Box*
+    +CreateProcessor(): Processor*
+    +CreateMainBoard(): MainBoard*
+    +CreateHdd(): Hdd*
+    +CreateMemory(): Memory*
+}
+
+class OfficePCFactory {
+    +CreateBox(): Box*
+    +CreateProcessor(): Processor*
+    +CreateMainBoard(): MainBoard*
+    +CreateHdd(): Hdd*
+    +CreateMemory(): Memory*
+}
+
+' PC Class
+class PC {
+    -Box* box
+    -Processor* processor
+    -MainBoard* mainBoard
+    -Hdd* hdd
+    -Memory* memory
+    +PC()
+    +~PC()
+    +setBox(Box*)
+    +setProcessor(Processor*)
+    +setMainBoard(MainBoard*)
+    +setHdd(Hdd*)
+    +setMemory(Memory*)
+    +getBox(): Box*
+    +getProcessor(): Processor*
+    +getMainBoard(): MainBoard*
+    +getHdd(): Hdd*
+    +getMemory(): Memory*
+    +print()
+}
+
+' Configurator Class
+class PcConfigurator {
+    -IPCFactory* pcFactory
+    +PcConfigurator()
+    +~PcConfigurator()
+    +setPcFactory(IPCFactory*)
+    +configure(): PC*
+}
+
+' Relationships - Inheritance for Products
+Hdd <|-- SamsungHDD
+Hdd <|-- LGHDD
+Memory <|-- Ddr2Memory
+Memory <|-- DdrMemory
+MainBoard <|-- MSIMainBoard
+MainBoard <|-- AsusMainBoard
+Box <|-- SilverBox
+Box <|-- BlackBox
+Processor <|-- IntelProcessor
+Processor <|-- AmdProcessor
+
+' Relationships - Inheritance for Factories
+IPCFactory <|-- HomePCFactory
+IPCFactory <|-- OfficePCFactory
+
+' Relationships - Factory creates Products
+HomePCFactory --> Box : CreateBox
+HomePCFactory --> Processor : CreateProcessor
+HomePCFactory --> MainBoard : CreateMainBoard
+HomePCFactory --> Hdd : CreateHdd
+HomePCFactory --> Memory : CreateMemory
+
+OfficePCFactory --> Box : CreateBox
+OfficePCFactory --> Processor : CreateProcessor
+OfficePCFactory --> MainBoard : CreateMainBoard
+OfficePCFactory --> Hdd : CreateHdd
+OfficePCFactory --> Memory : CreateMemory
+
+' Relationships - PC composition
+PC "1" *-- "0..1" Box
+PC "1" *-- "0..1" Processor
+PC "1" *-- "0..1" MainBoard
+PC "1" *-- "0..1" Hdd
+PC "1" *-- "0..1" Memory
+
+' Relationships - Configurator
+PcConfigurator --> IPCFactory : pcFactory
+PcConfigurator --> PC : configure
+
+@enduml

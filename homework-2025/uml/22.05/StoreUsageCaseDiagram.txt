@@ -1,0 +1,36 @@
+@startuml
+left to right direction
+
+actor "Кладовщик" as Storekeeper
+actor "Продавец" as Salesperson
+actor "Директор" as Director
+
+rectangle "Система автоматизации продуктового магазина" {
+  
+  usecase "Получить товары на склад" as UC_ReceiveGoods
+  usecase "Выдать товары со склада" as UC_IssueGoods
+  
+  usecase "Просмотреть наличие товара" as UC_ViewInventory
+  
+  usecase "Продать товар" as UC_SellProduct
+  usecase "Получить деньги" as UC_ReceivePayment
+  
+  usecase "Просмотреть наличие денежных средств" as UC_ViewCash
+  usecase "Заказать новые товары" as UC_OrderProducts
+  usecase "Выдать зарплату" as UC_PaySalary
+}
+
+Storekeeper --> UC_ReceiveGoods
+Storekeeper --> UC_IssueGoods
+
+Salesperson --> UC_ViewInventory
+Salesperson --> UC_SellProduct
+Salesperson --> UC_ReceivePayment
+
+Director --> UC_ViewInventory
+Director --> UC_ViewCash
+Director --> UC_OrderProducts
+Director --> UC_PaySalary
+
+
+@enduml

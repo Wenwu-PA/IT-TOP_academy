@@ -1,0 +1,33 @@
+@startuml
+class Prototype {
+  - string prototype_name_
+  - float prototype_field_
+  + {abstract} Clone() : std::unique_ptr<Prototype>
+  + Method(float)
+}
+
+class ConcretePrototype1 {
+  - float concrete_prototype_field1_
+  + Clone() : std::unique_ptr<Prototype>
+}
+
+class ConcretePrototype2 {
+  - float concrete_prototype_field2_
+  + Clone() : std::unique_ptr<Prototype>
+}
+
+class PrototypeFactory {
+  - std::unordered_map<Type, std::unique_ptr<Prototype>> prototypes_
+  + CreatePrototype(Type) : std::unique_ptr<Prototype>
+}
+
+enum Type {
+  PROTOTYPE_1
+  PROTOTYPE_2
+}
+
+Prototype <|-- ConcretePrototype1
+Prototype <|-- ConcretePrototype2
+PrototypeFactory o-- Prototype : contains
+PrototypeFactory ..> Type : uses
+@enduml

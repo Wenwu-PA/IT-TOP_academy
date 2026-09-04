@@ -1,0 +1,86 @@
+@startuml
+hide empty description
+
+skinparam state {
+  BackgroundColor White
+  BorderColor Black
+  ArrowColor #333333
+}
+
+state "Начало боя" as StartCombat
+state "Обнаружение врага" as DetectEnemy
+
+state choice1 <<choice>>
+state choice2 <<choice>>
+state choice3 <<choice>>
+state choice4 <<choice>>
+
+state "Доминантная рука: Правая" as RightHanded
+state "Доминантная рука: Левая" as LeftHanded
+
+state "Экипировка оружия" as EquipWeapon
+state "Выбор стойки" as ChooseStance
+state "Агрессивная стойка" as AggressiveStance
+state "Защитная стойка" as DefensiveStance
+
+state "Нанесение удара" as Strike
+state "Проверка попадания" as HitCheck
+
+state "Враг повержен" as EnemyDefeated
+state "Враг жив" as EnemyAlive
+state "Контратака врага" as EnemyCounter
+
+state join1 <<join>>
+state join2 <<join>>
+state join3 <<join>>
+
+[*] --> StartCombat
+StartCombat --> DetectEnemy : Обнаружен противник
+
+DetectEnemy --> choice1
+choice1 --> RightHanded : Правша
+choice1 --> LeftHanded : Левша
+
+RightHanded --> EquipWeapon : Оружие в правой руке
+LeftHanded --> EquipWeapon : Оружие в левой руке
+
+EquipWeapon --> choice2
+choice2 --> AggressiveStance : Агрессивный стиль
+choice2 --> DefensiveStance : Защитный стиль
+
+AggressiveStance --> join1
+DefensiveStance --> join1
+
+join1 --> Strike : Атаковать
+
+Strike --> HitCheck : Проверка урона
+
+HitCheck --> choice3
+choice3 --> EnemyDefeated : Критический удар
+choice3 --> EnemyAlive : Обычный удар
+
+EnemyDefeated --> join2
+
+EnemyAlive --> choice4
+choice4 --> EnemyCounter : Враг контратакует
+choice4 --> Strike : Повторная атака
+
+EnemyCounter --> join3
+Strike --> join3
+
+join2 --> [*] : Бой окончен
+join3 --> Strike : Продолжить бой
+
+note right of Strike
+  Урон зависит от:
+  - Типа оружия
+  - Стойки
+  - Доминантной руки
+end note
+
+note left of EnemyCounter
+  Шанс контратаки: 30%
+  Урон контратаки: 50%
+end note
+
+@enduml

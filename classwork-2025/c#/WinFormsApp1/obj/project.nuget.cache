@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4WDFmYW82lM=",
+  "dgSpecHash": "BAnY5OKRybM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Wenwu\\Desktop\\IT-TOP_academy\\classwork-2025\\c#\\WinFormsApp1\\WinFormsApp1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Wenwu\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.27\\microsoft.netcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Wenwu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.27\\microsoft.windowsdesktop.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Wenwu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.27\\microsoft.aspnetcore.app.ref.8.0.27.nupkg.sha512",
-    "C:\\Users\\Wenwu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.27\\microsoft.netcore.app.host.win-x64.8.0.27.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

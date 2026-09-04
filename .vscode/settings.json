@@ -122,5 +122,6 @@
     "numbers": "cpp",
     "sstream": "cpp",
     "cinttypes": "cpp"
-  }
+  },
+  "dotnet.preferCSharpExtension": true
 }

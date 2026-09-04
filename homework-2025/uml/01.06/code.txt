@@ -1,0 +1,48 @@
+@startuml
+skinparam sequence {
+  ArrowColor #2C3E50
+  ParticipantBorderColor #2C3E50
+  ParticipantBackgroundColor #ECF0F1
+  LifeLineBorderColor #7F8C8D
+}
+
+actor "Гость" as Guest
+participant "Официант" as Waiter
+participant "Повар" as Chef
+
+== Выбор блюда ==
+
+Guest -> Waiter : 1 Просит меню и уточняет наличие блюд
+activate Waiter
+Waiter -> Chef : 2 Уточняет наличие продуктов на кухне
+activate Chef
+Chef --> Waiter : 3 Подтверждает, что блюда доступны
+deactivate Chef
+Waiter --> Guest : 4 Принимает заказ и озвучивает итоговую сумму
+deactivate Waiter
+
+== Оплата заказа ==
+
+Guest -> Waiter : 5 Передает оплату (наличные/карта)
+activate Waiter
+Waiter -> Waiter : 6 Пробивает чек в кассе и регистрирует заказ
+Waiter --> Guest : 7 Возвращает карту и выдает фискальный чек
+deactivate Waiter
+
+== Подача блюда ==
+
+Waiter -> Chef : 8 Передает заказ-наряд на приготовление
+activate Chef
+Chef -> Chef : 9 Готовит и красиво оформляет блюдо
+Chef --> Waiter : 10 Отдает готовое блюдо официанту
+deactivate Chef
+
+activate Waiter
+Waiter --> Guest : 11 Подает блюдо гостю за стол
+deactivate Waiter
+
+activate Guest
+Guest -> Guest : 12 Пробует блюдо, оценивает и оставляет чаевые
+deactivate Guest
+
+@enduml
