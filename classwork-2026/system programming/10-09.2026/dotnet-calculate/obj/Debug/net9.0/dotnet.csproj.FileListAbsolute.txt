@@ -1,0 +1,15 @@
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\bin\Debug\net9.0\dotnet.exe
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\bin\Debug\net9.0\dotnet.deps.json
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\bin\Debug\net9.0\dotnet.runtimeconfig.json
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\bin\Debug\net9.0\dotnet.dll
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\bin\Debug\net9.0\dotnet.pdb
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.GeneratedMSBuildEditorConfig.editorconfig
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.AssemblyInfoInputs.cache
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.AssemblyInfo.cs
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.csproj.CoreCompileInputs.cache
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.sourcelink.json
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.dll
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\refint\dotnet.dll
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.pdb
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\dotnet.genruntimeconfig.cache
+D:\git\IT-TOP_academy\classwork-2026\system programming\10-09.2026\dotnet-calculate\obj\Debug\net9.0\ref\dotnet.dll

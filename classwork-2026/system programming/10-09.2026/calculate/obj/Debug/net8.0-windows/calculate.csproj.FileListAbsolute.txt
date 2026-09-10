@@ -1,0 +1,16 @@
+C:\Users\TOP\Desktop\calculate\bin\Debug\net8.0-windows\calculate.exe
+C:\Users\TOP\Desktop\calculate\bin\Debug\net8.0-windows\calculate.deps.json
+C:\Users\TOP\Desktop\calculate\bin\Debug\net8.0-windows\calculate.runtimeconfig.json
+C:\Users\TOP\Desktop\calculate\bin\Debug\net8.0-windows\calculate.dll
+C:\Users\TOP\Desktop\calculate\bin\Debug\net8.0-windows\calculate.pdb
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.Form1.resources
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.csproj.GenerateResource.cache
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.AssemblyInfoInputs.cache
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.AssemblyInfo.cs
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.dll
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\refint\calculate.dll
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.pdb
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\calculate.genruntimeconfig.cache
+C:\Users\TOP\Desktop\calculate\obj\Debug\net8.0-windows\ref\calculate.dll
