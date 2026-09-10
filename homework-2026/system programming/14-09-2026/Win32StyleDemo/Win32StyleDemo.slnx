@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="AppWithControls/AppWithControls.csproj" />
+  <Project Path="StyleChanger/StyleChanger.csproj" />
+  <Project Path="Win32Common/Win32Common.csproj" />
+</Solution>

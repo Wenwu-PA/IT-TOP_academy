@@ -123,5 +123,7 @@
     "sstream": "cpp",
     "cinttypes": "cpp"
   },
-  "dotnet.preferCSharpExtension": true
+  "dotnet.preferCSharpExtension": true,
+  "cmake.ignoreCMakeListsMissing": true,
+  "dotnet.defaultSolution": "disable"
 }

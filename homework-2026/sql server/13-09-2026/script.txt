@@ -1,0 +1,83 @@
+CREATE DATABASE CarSharingAnalytics;
+GO
+
+USE CarSharingAnalytics;
+GO
+
+CREATE TABLE Trips (
+    TripID INT PRIMARY KEY,
+    StartDateTime DATETIME NOT NULL,
+    EndDateTime DATETIME NOT NULL,
+    DurationMinutes INT NOT NULL CHECK (DurationMinutes > 0),
+    DistanceKm DECIMAL(6,2) NOT NULL,
+    StartAddress NVARCHAR(150) NOT NULL,
+    EndAddress NVARCHAR(150) NOT NULL,
+    ClientName NVARCHAR(100) NOT NULL,
+    ClientAge INT NOT NULL CHECK (ClientAge BETWEEN 18 AND 99),
+    ClientGender NVARCHAR(10) NOT NULL,
+    ClientCity NVARCHAR(50) NOT NULL,
+    DrivingExperienceYears INT NOT NULL,
+    CarBrand NVARCHAR(50) NOT NULL,
+    CarModel NVARCHAR(50) NOT NULL,
+    CarYear INT NOT NULL CHECK (CarYear BETWEEN 2000 AND YEAR(GETDATE())),
+    CarColor NVARCHAR(30) NOT NULL,
+    RentalPricePerMinute DECIMAL(6,2) NOT NULL CHECK (RentalPricePerMinute > 0),
+    TotalCost DECIMAL(10,2) NOT NULL,
+    HasDiscount BIT NOT NULL,
+    DiscountPercent INT CHECK (DiscountPercent BETWEEN 0 AND 100),
+    PaymentMethod NVARCHAR(20) NOT NULL,
+    ClientRating INT CHECK (ClientRating BETWEEN 1 AND 5),
+    HasComment BIT NOT NULL,
+    HasViolation BIT NOT NULL,
+    FineAmount DECIMAL(10,2) CHECK (FineAmount >= 0)
+);
+GO
+
+INSERT INTO Trips (
+    TripID, StartDateTime, EndDateTime, DurationMinutes, DistanceKm, 
+    StartAddress, EndAddress, ClientName, ClientAge, ClientGender, ClientCity, DrivingExperienceYears, 
+    CarBrand, CarModel, CarYear, CarColor, RentalPricePerMinute, 
+    TotalCost, HasDiscount, DiscountPercent, PaymentMethod, 
+    ClientRating, HasComment, HasViolation, FineAmount
+) VALUES
+(1,  '2026-09-07 08:30:00', '2026-09-07 09:15:00', 45,  15.5, 'ул. Ленина, 10', 'пр-т Мира, 25', 'Иванов И.', 22, 'М', 'Москва', 2, 'Kia', 'Rio', 2020, 'Белый', 10.00, 450.00, 0, NULL, 'Карта', 5, 0, 0, 0.00),
+(2,  '2026-09-07 09:00:00', '2026-09-07 09:10:00', 10,  3.2,  'ул. Пушкина, 5', 'ул. Гагарина, 12', 'Петрова А.', 19, 'Ж', 'Москва', 1, 'Hyundai', 'Solaris', 2021, 'Черный', 12.00, 120.00, 0, NULL, 'Бонусы', 4, 1, 0, 0.00),
+(3,  '2026-09-07 12:00:00', '2026-09-07 14:30:00', 150, 80.0, 'ул. Садовая, 1', 'г. Химки, ул. Лавочкина', 'Сидоров В.', 45, 'М', 'Москва', 20, 'Renault', 'Logan', 2018, 'Серый', 8.50,  1275.00, 1, 15, 'Карта', 3, 1, 0, 0.00),
+(4,  '2026-09-07 18:45:00', '2026-09-07 19:00:00', 15,  5.0,  'пр-т Мира, 25', 'ул. Ленина, 10', 'Смирнова Е.', 28, 'Ж', 'СПб', 5, 'Volkswagen', 'Polo', 2019, 'Синий', 11.00, 165.00, 0, NULL, 'Карта', 5, 0, 0, 0.00),
+(5,  '2026-09-07 22:00:00', '2026-09-07 23:30:00', 90,  45.0, 'ул. Гагарина, 12', 'ул. Садовая, 1', 'Козлов Д.', 34, 'М', 'Казань', 12, 'Kia', 'Ceed', 2022, 'Красный', 14.00, 1260.00, 0, NULL, 'Наличные', 2, 1, 1, 5000.00),
+(6,  '2026-09-05 10:00:00', '2026-09-05 10:20:00', 20,  8.0,  'Невский пр-т, 1', 'ул. Рубинштейна, 5', 'Волков С.', 21, 'М', 'СПб', 3, 'Hyundai', 'Creta', 2023, 'Белый', 16.00, 320.00, 1, 20, 'Карта', 5, 0, 0, 0.00),
+(7,  '2026-09-05 14:30:00', '2026-09-05 18:30:00', 240, 150.0,'ул. Рубинштейна, 5','г. Петергоф', 'Морозова О.', 30, 'Ж', 'СПб', 8, 'Renault', 'Duster', 2020, 'Зеленый', 13.00, 3120.00, 0, NULL, 'Карта', 4, 1, 0, 0.00),
+(8,  '2026-09-05 23:50:00', '2026-09-06 01:20:00', 90,  30.0, 'г. Петергоф', 'Невский пр-т, 1', 'Лебедев К.', 50, 'М', 'СПб', 25, 'Volkswagen', 'Tiguan', 2021, 'Черный', 18.00, 1620.00, 0, NULL, 'Карта', 1, 1, 1, 10000.00),
+(9,  '2026-09-06 09:00:00', '2026-09-06 09:05:00', 5,   1.5,  'ул. Баумана, 10', 'ул. Баумана, 15', 'Ахметов Р.', 18, 'М', 'Казань', 0, 'Kia', 'Rio', 2019, 'Серебр.', 9.00,  45.00, 0, NULL, 'Бонусы', 3, 0, 0, 0.00),
+(10, '2026-09-06 13:00:00', '2026-09-06 15:00:00', 120, 50.0, 'ул. Баумана, 15', 'г. Иннополис', 'Нурланов Т.', 24, 'М', 'Казань', 4, 'Hyundai', 'Solaris', 2022, 'Серый', 11.50, 1380.00, 1, 10, 'Карта', 5, 1, 0, 0.00),
+(11, '2026-09-06 19:00:00', '2026-09-06 19:45:00', 45,  18.0, 'г. Иннополис', 'ул. Баумана, 10', 'Иванова М.', 27, 'Ж', 'Казань', 6, 'Renault', 'Kaptur', 2021, 'Оранжев.', 12.50, 562.50, 0, NULL, 'Карта', 4, 0, 0, 0.00),
+(12, '2026-09-06 22:30:00', '2026-09-06 23:00:00', 30,  12.0, 'ул. Баумана, 10', 'ул. Декабристов, 5', 'Федоров П.', 38, 'М', 'Казань', 15, 'Volkswagen', 'Jetta', 2017, 'Белый', 10.50, 315.00, 0, NULL, 'Наличные', 2, 1, 1, 3000.00),
+(13, '2026-09-04 07:45:00', '2026-09-04 08:15:00', 30,  10.0, 'ул. Ленина, 10', 'Аэропорт Шереметьево', 'Громов А.', 40, 'М', 'Москва', 18, 'Kia', 'Sportage', 2023, 'Черный', 17.00, 510.00, 0, NULL, 'Карта', 5, 0, 0, 0.00),
+(14, '2026-09-04 17:30:00', '2026-09-04 19:30:00', 120, 40.0, 'Аэропорт Шереметьево', 'ул. Ленина, 10', 'Белова С.', 33, 'Ж', 'Москва', 10, 'Hyundai', 'Tucson', 2022, 'Синий', 16.50, 1980.00, 1, 25, 'Карта', 4, 1, 0, 0.00),
+(15, '2026-09-03 10:00:00', '2026-09-03 10:15:00', 15,  4.0,  'пр-т Мира, 25', 'ТЦ Афимолл', 'Кузнецов И.', 23, 'М', 'Москва', 3, 'Renault', 'Arkana', 2024, 'Коричн.', 13.50, 202.50, 0, NULL, 'Бонусы', 5, 0, 0, 0.00),
+(16, '2026-09-03 14:00:00', '2026-09-03 14:08:00', 8,   2.5,  'ТЦ Афимолл', 'пр-т Мира, 25', 'Попова В.', 20, 'Ж', 'Москва', 1, 'Volkswagen', 'Golf', 2019, 'Красный', 11.00, 88.00, 0, NULL, 'Карта', 4, 0, 0, 0.00),
+(17, '2026-09-04 23:00:00', '2026-09-05 01:00:00', 120, 65.0, 'ул. Садовая, 1', 'г. Зеленоград', 'Орлов М.', 29, 'М', 'Москва', 7, 'Kia', 'K5', 2021, 'Серый', 15.00, 1800.00, 0, NULL, 'Карта', 3, 1, 1, 5000.00),
+(18, '2026-09-05 08:00:00', '2026-09-05 08:05:00', 5,   1.0,  'г. Зеленоград', 'ул. Садовая, 1', 'Новиков Д.', 19, 'М', 'Москва', 1, 'Hyundai', 'Accent', 2015, 'Белый', 8.00,  40.00, 0, NULL, 'Наличные', 2, 0, 0, 0.00),
+(19, '2026-09-06 11:00:00', '2026-09-06 11:40:00', 40,  15.0, 'Невский пр-т, 1', 'Исаакиевская пл.', 'Соколова Е.', 26, 'Ж', 'СПб', 5, 'Renault', 'Sandero', 2020, 'Бежевый', 9.50,  380.00, 1, 5, 'Карта', 5, 1, 0, 0.00),
+(20, '2026-09-07 15:00:00', '2026-09-07 15:25:00', 25,  9.0,  'ул. Гагарина, 12', 'ул. Пушкина, 5', 'Макаров К.', 31, 'М', 'Москва', 9, 'Volkswagen', 'Passat', 2018, 'Черный', 12.00, 300.00, 0, NULL, 'Карта', 4, 0, 0, 0.00);
+GO
+
+SELECT * FROM Trips WHERE DurationMinutes > 60;
+
+SELECT * FROM Trips WHERE CarBrand = 'Kia';
+
+SELECT * FROM Trips WHERE TotalCost > 1000;
+
+SELECT * FROM Trips WHERE ClientAge < 25;
+
+SELECT * FROM Trips WHERE DATENAME(dw, StartDateTime) IN ('Saturday', 'Sunday');
+
+SELECT * FROM Trips WHERE HasDiscount = 1 AND DiscountPercent > 10;
+
+SELECT * FROM Trips WHERE ClientRating < 3;
+
+SELECT * FROM Trips WHERE HasViolation = 1 AND FineAmount > 0;
+
+SELECT * FROM Trips WHERE CAST(StartDateTime AS TIME) BETWEEN '08:00:00' AND '10:00:00';
+
+SELECT * FROM Trips WHERE RentalPricePerMinute > 15;

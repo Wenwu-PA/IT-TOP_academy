@@ -1,0 +1,19 @@
+SELECT * FROM Trips WHERE DurationMinutes > 60;
+
+--SELECT * FROM Trips WHERE CarBrand = 'Kia';
+
+--SELECT * FROM Trips WHERE TotalCost > 1000;
+
+--SELECT * FROM Trips WHERE ClientAge < 25;
+
+--SELECT * FROM Trips WHERE DATENAME(dw, StartDateTime) IN ('Saturday', 'Sunday');
+
+--SELECT * FROM Trips WHERE HasDiscount = 1 AND DiscountPercent > 10;
+
+--SELECT * FROM Trips WHERE ClientRating < 3;
+
+--SELECT * FROM Trips WHERE HasViolation = 1 AND FineAmount > 0;
+
+--SELECT * FROM Trips WHERE CAST(StartDateTime AS TIME) BETWEEN '08:00:00' AND '10:00:00';
+
+--SELECT * FROM Trips WHERE RentalPricePerMinute > 15;

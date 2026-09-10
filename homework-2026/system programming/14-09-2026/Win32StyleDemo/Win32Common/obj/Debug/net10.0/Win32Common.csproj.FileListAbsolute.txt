@@ -1,0 +1,12 @@
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\bin\Debug\net10.0\Win32Common.deps.json
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\bin\Debug\net10.0\Win32Common.dll
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\bin\Debug\net10.0\Win32Common.pdb
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.AssemblyInfoInputs.cache
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.AssemblyInfo.cs
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.csproj.CoreCompileInputs.cache
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.sourcelink.json
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.dll
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\refint\Win32Common.dll
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\Win32Common.pdb
+C:\Users\Wenwu\Desktop\IT-TOP_academy\homework-2026\system programming\14-09-2026\Win32StyleDemo\Win32Common\obj\Debug\net10.0\ref\Win32Common.dll
