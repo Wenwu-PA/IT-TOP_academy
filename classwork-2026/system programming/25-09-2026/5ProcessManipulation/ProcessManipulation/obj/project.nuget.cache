@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ISN55X8VGP0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TOP\\Documents\\geniu\\системное\\5ProcessManipulation\\ProcessManipulation\\ProcessManipulation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TOP\\.nuget\\packages\\system.codedom\\10.0.12\\system.codedom.10.0.12.nupkg.sha512",
+    "C:\\Users\\TOP\\.nuget\\packages\\system.management\\10.0.12\\system.management.10.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

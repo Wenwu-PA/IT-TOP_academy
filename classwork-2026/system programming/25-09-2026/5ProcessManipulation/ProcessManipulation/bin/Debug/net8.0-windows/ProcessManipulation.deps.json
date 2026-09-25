@@ -1,0 +1,95 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ProcessManipulation/1.0.0": {
+        "dependencies": {
+          "ChildProcess": "1.0.0",
+          "ChildProcess2": "1.0.0",
+          "System.Management": "10.0.12"
+        },
+        "runtime": {
+          "ProcessManipulation.dll": {}
+        }
+      },
+      "System.CodeDom/10.0.12": {
+        "runtime": {
+          "lib/net8.0/System.CodeDom.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "System.Management/10.0.12": {
+        "dependencies": {
+          "System.CodeDom": "10.0.12"
+        },
+        "runtime": {
+          "lib/net8.0/System.Management.dll": {
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/System.Management.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "10.0.0.12",
+            "fileVersion": "10.0.1226.42308"
+          }
+        }
+      },
+      "ChildProcess/1.0.0": {
+        "runtime": {
+          "ChildProcess.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ChildProcess2/1.0.0": {
+        "runtime": {
+          "ChildProcess2.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ProcessManipulation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.CodeDom/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Kk3yEavoGHXCAFTLLegxztgSdj24JrkAHelwgWnu+YMFxezcU2DbABEOOIMdy04PExUtKQtlazaKqo0qSa1X6A==",
+      "path": "system.codedom/10.0.12",
+      "hashPath": "system.codedom.10.0.12.nupkg.sha512"
+    },
+    "System.Management/10.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ApUsYmsNG8aPiMxsO6ROGZnqJwSZY8zeMlAQcuQg+ilPFUcIyBUC0BL8qA6wmPLNVsvL4nyhUrhhxh6qn0cx0Q==",
+      "path": "system.management/10.0.12",
+      "hashPath": "system.management.10.0.12.nupkg.sha512"
+    },
+    "ChildProcess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ChildProcess2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\bin\Debug\net8.0-windows\ChildProcess2.exe
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\bin\Debug\net8.0-windows\ChildProcess2.deps.json
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\bin\Debug\net8.0-windows\ChildProcess2.runtimeconfig.json
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\bin\Debug\net8.0-windows\ChildProcess2.dll
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\bin\Debug\net8.0-windows\ChildProcess2.pdb
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.Form1.resources
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.csproj.GenerateResource.cache
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.AssemblyInfoInputs.cache
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.AssemblyInfo.cs
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.csproj.CoreCompileInputs.cache
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.dll
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\refint\ChildProcess2.dll
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.pdb
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ChildProcess2.genruntimeconfig.cache
+C:\Users\TOP\Documents\geniu\системное\5ProcessManipulation\ChildProcess2\obj\Debug\net8.0-windows\ref\ChildProcess2.dll
