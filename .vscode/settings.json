@@ -125,5 +125,6 @@
   },
   "dotnet.preferCSharpExtension": true,
   "cmake.ignoreCMakeListsMissing": true,
-  "dotnet.defaultSolution": "disable"
+  "dotnet.defaultSolution": "disable",
+  "FSharp.suggestGitignore": false
 }

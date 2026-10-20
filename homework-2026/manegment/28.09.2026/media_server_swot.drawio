@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0">
+  <diagram name="SWOT — Медиа-сервер" id="media-server-swot">
+    <mxGraphModel dx="2019" dy="1174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=24;fontStyle=1;" value="SWOT-анализ: создание домашнего медиасервера" vertex="1">
+          <mxGeometry height="50" width="830" x="170" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-5" edge="1" parent="1" source="strengths" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="opportunities">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="strengths" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e8f5e9;strokeColor=#43a047;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=18;spacingRight=18;fontSize=14;" value="&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font style=&quot;font-size:20px;&quot;&gt;СИЛЬНЫЕ СТОРОНЫ&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Опыт работы с Linux и сетевым оборудованием&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Опыт настройки OpenWrt и домашней сети&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Понимание Docker, VPN и сетевых сервисов&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Возможность самостоятельно администрировать сервер&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;• Уже существующая домашняя инфраструктура&lt;/span&gt;" vertex="1">
+          <mxGeometry height="390" width="480" x="80" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-4" edge="1" parent="1" source="weaknesses" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="strengths">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="weaknesses" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff3e0;strokeColor=#fb8c00;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=18;spacingRight=18;fontSize=14;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px;&quot;&gt;СЛАБЫЕ СТОРОНЫ&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Недостаток современных комплектующих&lt;br&gt;&lt;br&gt;• Недостаточное количество накопителей&lt;br&gt;&lt;br&gt;• Ограниченный бюджет на покупку оборудования&lt;br&gt;&lt;br&gt;• Нет готовой серверной платформы&lt;br&gt;&lt;br&gt;• Ограниченные возможности масштабирования хранилища" vertex="1">
+          <mxGeometry height="390" width="480" x="610" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-6" edge="1" parent="1" source="opportunities" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="threats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="opportunities" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3f2fd;strokeColor=#1e88e5;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=18;spacingRight=18;fontSize=14;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px;&quot;&gt;ВОЗМОЖНОСТИ&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Использовать сервер не только для медиатеки&lt;br&gt;&lt;br&gt;• Развернуть Minecraft, Mumble, NetBird и другие сервисы&lt;br&gt;&lt;br&gt;• Постепенно докупать диски и модернизировать оборудование&lt;br&gt;&lt;br&gt;• Получить практический опыт Linux и системного администрирования&lt;br&gt;&lt;br&gt;• Создать собственное централизованное хранилище" vertex="1">
+          <mxGeometry height="390" width="480" x="80" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-7" edge="1" parent="1" source="threats" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="weaknesses">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="threats" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#e53935;strokeWidth=2;align=left;verticalAlign=top;spacingTop=18;spacingLeft=18;spacingRight=18;fontSize=14;" value="&lt;b&gt;&lt;font style=&quot;font-size:20px;&quot;&gt;УГРОЗЫ&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;• Выход из строя накопителя может привести к потере данных&lt;br&gt;&lt;br&gt;• Рост объёма медиаданных потребует новых дисков&lt;br&gt;&lt;br&gt;• Слабое оборудование может не справляться&lt;br&gt;&lt;br&gt;• Рост энергопотребления при использовании более мощного оборудования&lt;br&gt;&lt;br&gt;• Отказ одного компонента может вывести сервер из строя" vertex="1">
+          <mxGeometry height="390" width="480" x="610" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-3" edge="1" parent="1" source="conclusion" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TcE6iXMKKNYPnphZGmUo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="conclusion" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#616161;strokeWidth=2;align=center;verticalAlign=middle;fontSize=14;spacing=15;" value="&lt;b&gt;ВЫВОД&lt;/b&gt;&lt;br&gt;&lt;br&gt;Начать с доступного оборудования и минимальной конфигурации, используя имеющийся опыт работы с Linux и сетями. В дальнейшем постепенно расширять дисковое пространство и модернизировать серверное оборудование." vertex="1">
+          <mxGeometry height="130" width="670" x="250" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="260" width="850" x="155" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-9" edge="1" parent="1" source="TcE6iXMKKNYPnphZGmUo-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TcE6iXMKKNYPnphZGmUo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;strong&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Моя SMART-цель&lt;/font&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;До &lt;strong style=&quot;&quot;&gt;31 декабря 2026 года&lt;/strong&gt; собрать и запустить &lt;strong style=&quot;&quot;&gt;домашний медиасервер&lt;/strong&gt; на доступном оборудовании, настроить централизованное хранение и воспроизведение медиаданных по локальной сети, а также развернуть &lt;strong style=&quot;&quot;&gt;не менее 3 дополнительных сервисов&lt;/strong&gt; для домашней инфраструктуры. Сервер должен иметь возможность дальнейшего расширения дискового пространства и модернизации оборудования.&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="240" width="840" x="165" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
+          <mxGeometry height="500" width="890" x="140" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="TcE6iXMKKNYPnphZGmUo-11" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;p&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;strong&gt;Задачи:&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;1 - выяснить причину несовместимости современной ОС и стандартного способа установки ОС(24.09-25.09) - выполнено! &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 233, 0));&quot;&gt;(ограничение проприетарной технологии DELL на уровне железа, 32 битная и старый 64 разрядный стандарт команд для процессора)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;2 - выяснить, где есть возможность получить железо лучше нынешнего (28.09-30-09) - выполнено! &lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 165, 0));&quot;&gt;(На работе есть списанное железо)&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;3 -&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;установить 32 bit-ный iso образ на hdd используя пк друга (28.09-29.09) - в процессе&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 - выяснить возможности нынешней сборки с установленной системой (стоит ли дальше развивать его, или проще собрать из нового?)(30.09-2.09)&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="465" width="855" x="157.5" y="1487.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
