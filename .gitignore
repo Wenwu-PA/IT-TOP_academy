@@ -2,4 +2,9 @@
 *.obj
 *.pdb
 *.ilk
+*.DS_Store
 homework-2025\.vscode
+path
+*.xlsx
+*.txt
+*.xls
