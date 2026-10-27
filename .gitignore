@@ -8,3 +8,4 @@ path
 *.xlsx
 *.txt
 *.xls
+.DS_Store
