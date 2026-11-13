@@ -1,33 +1,41 @@
 #pragma once
 
 #include <iostream>
-#include <string>     // для std::string
-#include <cstring>    // для std::strcmp
-#include <cstdlib>    // для std::exit
-#include <winsock2.h> // для функций библиотеки WinSock2
-#include <WS2tcpip.h> // для функции inet_pton
+#include <string>
 
-#pragma comment(lib, "ws2_32.lib")
+#ifdef _WIN32
+#include <winsock2.h>
+#include <ws2tcpip.h>
+using SocketHandle = SOCKET;
+constexpr SocketHandle InvalidSocket = INVALID_SOCKET;
+#else
+#include <arpa/inet.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <unistd.h>
+using SocketHandle = int;
+constexpr SocketHandle InvalidSocket = -1;
+#endif
 
-const int MAXSTRLEN{ 255 };
+constexpr int MAXSTRLEN = 255;
 
 class Socket
 {
 protected:
-    WSADATA wsaData;  // информация об инициализации сокетов
-    SOCKET skt;       // дескриптор слушающего сокета
-    SOCKET acceptSkt; // дескриптор сокета клиента
-    sockaddr_in addr; // адрес и порт
+    SocketHandle skt = InvalidSocket;
+    sockaddr_in addr{};
 public:
     Socket();
     ~Socket();
-    bool SendData(char* buffer);
+    Socket(const Socket&) = delete;
+    Socket& operator=(const Socket&) = delete;
+    bool SendData(const char* buffer);
     bool ReceiveData(char* buffer, int size);
     void CloseConnection();
-    void SendDataMessage();
+    bool SendDataMessage();
 };
 
-class ServerSocket: public Socket
+class ServerSocket : public Socket
 {
 public:
     void Bind(int port);
@@ -35,7 +43,7 @@ public:
     void StartHosting(int port);
 };
 
-class ClientSocket: public Socket
+class ClientSocket : public Socket
 {
 public:
     void ConnectToServer(const char* ip, int port);
