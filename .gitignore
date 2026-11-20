@@ -9,3 +9,9 @@ path
 *.txt
 *.xls
 .DS_Store
+*.dll
+*.csproj
+*.cache
+*.json
+*.props
+*.sln
